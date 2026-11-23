@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Barrios | Desarrollador de Software</title>
+    <meta name="description" content="Portafolio de Cristian Barrios, Técnico Universitario en Desarrollo de Software y especialista en soporte IT. Conoce mis proyectos y habilidades.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Cristian<span>Barrios</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </button>
+                <a href="Barrios_Cristian_CV.pdf" class="btn btn-primary" download style="padding: 0.5rem 1rem; font-size: 0.85rem;">CV PDF</a>
+                <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Hola, soy <span>Cristian Fernando Barrios</span></h1>
+                <p>Desarrollador de Software & Soporte Técnico IT residente en Salta Capital, Argentina. Transformo ideas en código eficiente y garantizo la optimización de sistemas.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="Barrios_Cristian_CV.pdf" class="btn btn-outline" download><i class="fa-solid fa-download"></i> Descargar CV en PDF</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Foto de perfil de Cristian Fernando Barrios" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Soy un estudiante avanzado de desarrollo de software y técnico informático apasionado por la resolución de problemas tecnológicos y el desarrollo de soluciones robustas. Poseo amplia experiencia en soporte técnico integral, diagnóstico de hardware/software y gestión de sistemas informáticos.</p>
+                    <p>Me destaco por mi sólida base lógica, capacidad analítica y constante actualización en lenguajes de programación modernos como Java y Python, además del manejo eficiente de bases de datos y scripts de automatización.</p>
+                </div>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>Técnico Universitario en Desarrollo de Software</h3>
+                        <span>Formación Académica Actual</span>
+                        <p>Instituciones de referencia: UPATeco, IES 6001 y Universidad de Chilecito.</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Soporte Técnico IT y Redes</h3>
+                        <span>Experiencia Profesional</span>
+                        <p>Mantenimiento preventivo/correctivo, gestión de sistemas (SISFET, LUA) y atención técnica especializada en Salta Capital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" style="background-color: var(--surface-alt);">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>HTML / CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>LUA</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>SISFET</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Reparación PC</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-file-excel"></i>
+                    <h3>Paquete Office</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Sistema de Gestión de Legajos</h3>
+                        <span class="project-role">Desarrollador Backend / Lógica</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Aplicación desarrollada para optimizar el almacenamiento, búsqueda y control de legajos estudiantiles y de personal con validaciones seguras.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">POO</span>
+                            <span class="tech-tag">Base de Datos</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/tu-usuario-aqui" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Ver Repositorio</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link"></i> Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Script de Automatización IT</h3>
+                        <span class="project-role">Desarrollador & Automatizador</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Herramienta en Python diseñada para automatizar respaldos periódicos de archivos, limpieza de caché y generación de reportes de diagnóstico de red.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scripting</span>
+                            <span class="tech-tag">Soporte IT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/tu-usuario-aqui" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Ver Repositorio</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link"></i> Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>App Web de Soporte IT</h3>
+                        <span class="project-role">Desarrollador Fullstack Junior</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Plataforma web interactiva para la carga y seguimiento de tickets de soporte técnico informático, con interfaz limpia y panel de control básico.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/tu-usuario-aqui" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Ver Repositorio</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-external-link"></i> Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" style="background-color: var(--surface-alt);">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-container">
+                <form class="contact-form" action="https://formspree.io/f/tu-formspree-id" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="justify-content: center;">Enviar Mensaje</button>
+                </form>
+
+                <div class="contact-info-alt">
+                    <a href="mailto:fernando_sga88@hotmail.com"><i class="fa-solid fa-envelope"></i> fernando_sga88@hotmail.com</a>
+                    <a href="https://www.linkedin.com/in/tu-perfil-aqui" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/tu-usuario-aqui" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Cristian Fernando Barrios. Todos los derechos reservados. Salta Capital, Argentina.</p>
+        </div>
+    </footer>
+
+    <!-- JS Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
